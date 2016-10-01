@@ -47,6 +47,7 @@
     "react-transform-hmr": "1.0.0",
     "redbox-react": "1.0.1",
     "rimraf": "^2.4.3",
+    "script-loader": "^0.7.0",
     "transform-loader": "^0.2.3",
     "url-loader": "^0.5.7",
     "webpack": "^1.9.6",
@@ -54,6 +55,7 @@
     "webpack-hot-middleware": "^2.0.0"
   },
   "dependencies": {
+    "nw": "^0.17.5",
     "pixi.js": "^3.0.8",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",

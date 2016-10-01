@@ -1,5 +1,12 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { App } from './App';
+import ReactPIXI from 'react-pixi';
+import App from './App';
+import Cupcake from './Cupcake';
+import Graphics from './Graphics';
+import SceneManager from './SceneManager';
+import './core/jsExtensions';
+import 'script!./core/FPSMeter';
 
-render(<App />, document.getElementById('pixi-root'));
+
+SceneManager.run(App);
